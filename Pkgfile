@@ -63,7 +63,7 @@ vars:
   iptables_sha512: 71e6ed2260859157d61981a4fe5039dc9e8d7da885a626a4b5dae8164c509a9d9f874286b9468bb6a462d6e259d4d32d5967777ecefdd8a293011ae80c00f153
 
   # renovate: datasource=git-refs versioning=git depName=https://github.com/ipxe/ipxe.git
-  ipxe_ref: b66e27d9b29a172a097c737ab4d378d60fe01b05
+  ipxe_ref: 5a9f476d4f1395e69cbb845d7379b0e3591028c0
   ipxe_sha256: 46a6efa1d874aeb9d09278f71abbe784d338dedfbd81b5f644afea8c51c64af3
   ipxe_sha512: ad18f513e3ffbda4865dc0b7b12d5d06249355ceb495bddb806e8315c1a92d11582d09fc5c301015bd3957507cceb116735bf9bd73fc219995e77dc9b70241cf
 
@@ -114,12 +114,12 @@ vars:
   liburcu_sha512: 7297e51012f4c44ee27c0e18ed9d87bf24be34db68a5398394c1e683a045bb561cf74aa913398404c0ed5cb8011af728ea12947717fa5f27627e5ca78e63a40f
 
   # renovate: datasource=git-tags depName=git://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git
-  linux_firmware_version: 20240610
+  linux_firmware_version: 20240709
   linux_firmware_sha256: fe7687f7264ef1193704824c884be515cd385c15303962cb85c929d40c6cd5b9
   linux_firmware_sha512: fde9a5acb3407335227e7a2184335b21fc2c740503c6ff287f60ad10ae49ee86efaa07da1483a7075668820d16a040af4f87918ff5ff21b816fc42a98a1bfc0c
 
   # renovate: datasource=git-tags extractVersion=^v(?<version>.*)$ depName=git://sourceware.org/git/lvm2.git
-  lvm2_version: 2_03_22
+  lvm2_version: 2_03_25
   lvm2_sha256: 4c5a6923bd1ace7ce04474608a84937ce053ba91b1ace9f0b0017268e732dc7c
   lvm2_sha512: 17cd24ceee8026481566824b688dafd03ec816201d5cb3549cb7fc8a36f4cdaa982faaef4dcd26debfe775dea5ffa2744798164314ea6dc99a84f8ccccfc33ff
 
@@ -133,7 +133,7 @@ vars:
   musl_sha512: 7bb7f7833923cd69c7a1a9b8a5f1784bfd5289663eb6061dcd43d583e45987df8a68a1be05d75cc1c88a3f5b610653d1a70f4a9cff4d8f7fd41ae73ee058c17c
 
   # renovate: datasource=github-releases depName=nvidia/open-gpu-kernel-modules
-  nvidia_driver_version: 535.129.03
+  nvidia_driver_version: 535.183.06
   nvidia_driver_sha256: 170ee91b6cd6c801bba0de91e0d62af8e574adde38120bc762784755b5a9821d
   nvidia_driver_sha512: c8104103f34365b7a20dcebb64e1eb2e64a7b056b44329fa305f81e267759f2b1bb1c09923e617d4f5f4af3be01c3b8e2e6d739f03d4d0f129b31331fec3a4d8
 
@@ -159,7 +159,7 @@ vars:
   syslinux_sha512: dd2b2916962b9e93bc1e714182e3ca2a727a229b8afabe913050bcfdd43ee2af51ee3acf79121d8c20caf434583efaa7f3196871e0e07c04d82191323a50fe31
 
   # renovate: datasource=git-tags extractVersion=^v(?<version>.*)$ depName=git://git.kernel.org/pub/scm/utils/util-linux/util-linux.git
-  util_linux_version: 2.40.1
+  util_linux_version: 2.40.2
   util_linux_sha256: 59e676aa53ccb44b6c39f0ffe01a8fa274891c91bef1474752fad92461def24f
   util_linux_sha512: 58ec6eb41d4b6bfc544a80e95c71b5f3798ab4d2a9435d3ee9e5edd56f9b3f09bcb154bdd70e002dc018938937e2e946ae731dcda0f86b362fc43423689e41fc
 
